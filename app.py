@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from app import Flask, request, jsonify, render_template
 import subprocess
 import os
 
@@ -19,10 +19,10 @@ def analyze():
 
     # run C++ exe with image path
     result = subprocess.run(
-        ["./main.exe", filepath],
-        capture_output=True,
-        text=True
-    )
+    ["./main", filepath],
+    capture_output=True,
+    text=True
+)
 
     return jsonify({"result": result.stdout.strip()})
 
