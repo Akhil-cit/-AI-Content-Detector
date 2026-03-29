@@ -1,0 +1,68 @@
+ExifTool Version Number         : 13.53
+File Name                       : ChatGPT Image Mar 27, 2026, 05_50_00 PM.png
+Directory                       : uploads
+File Size                       : 1335 kB
+File Modification Date/Time     : 2026:03:29 23:12:12+05:30
+File Access Date/Time           : 2026:03:29 23:12:12+05:30
+File Creation Date/Time         : 2026:03:29 22:54:49+05:30
+File Permissions                : -rw-rw-rw-
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 1024
+Image Height                    : 1024
+Bit Depth                       : 8
+Color Type                      : RGB
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+JUMD Type                       : (c2pa)-0011-0010-800000aa00389b71
+JUMD Label                      : c2pa
+C2PA Actions V2 Salt            : 1800185ade1059b340eadf2c56ce0624
+Actions Action                  : c2pa.created, c2pa.converted
+Actions Software Agent Name     : GPT-4o
+Actions Digital Source Type     : http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia
+C2PA Hash Data Salt             : 1dde7988341a86c64d077d84eb91ecd8
+Exclusions Start                : 33
+Exclusions Length               : 14186
+Name                            : jumbf manifest
+Alg                             : sha256
+Hash                            : (Binary data 32 bytes, use -b option to extract)
+Pad                             : (Binary data 8 bytes, use -b option to extract)
+Instance ID                     : xmp:iid:048fdc8b-9863-4c80-8c93-164368d1fa7f
+Claim Generator Info Name       : ChatGPT
+Claim Generator Info Org Contentauth C2 Pa Rs: 0.78.5
+Signature                       : self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.signature
+Created Assertions Url          : self#jumbf=c2pa.assertions/c2pa.hash.data
+Created Assertions Hash         : (Binary data 32 bytes, use -b option to extract)
+Gathered Assertions Url         : self#jumbf=c2pa.assertions/c2pa.actions.v2
+Gathered Assertions Hash        : (Binary data 32 bytes, use -b option to extract)
+Title                           : image.png
+Item 0                          : (Binary data 1979 bytes, use -b option to extract)
+Item 1 Pad                      : (Binary data 10932 bytes, use -b option to extract)
+Item 2                          : null
+Item 3                          : (Binary data 64 bytes, use -b option to extract)
+C2PA Thumbnail Ingredient Salt  : 2d137c8e5a9f0c0119c9224586fbddb9
+C2PA Thumbnail Ingredient Type  : image/jpeg
+C2PA Thumbnail Ingredient Data  : (Binary data 53446 bytes, use -b option to extract)
+C2PA Ingredient V3 Salt         : b82e08a457437ac6f5262eb0489f1907
+Relationship                    : parentOf
+Format                          : png
+Validation Results Active Manifest Success Code: claimSignature.insideValidity, claimSignature.validated, assertion.hashedURI.match, assertion.hashedURI.match, assertion.dataHash.match
+Validation Results Active Manifest Success Url: self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.signature, self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.signature, self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.assertions/c2pa.hash.data, self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.assertions/c2pa.actions.v2, self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.assertions/c2pa.hash.data
+Validation Results Active Manifest Success Explanation: claim signature valid, claim signature valid, hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data, hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2, data hash valid
+Validation Results Active Manifest Failure Code: signingCredential.untrusted
+Validation Results Active Manifest Failure Url: self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.signature
+Validation Results Active Manifest Failure Explanation: signing certificate untrusted
+Active Manifest Url             : self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf
+Active Manifest Alg             : sha256
+Active Manifest Hash            : (Binary data 32 bytes, use -b option to extract)
+Claim Signature Url             : self#jumbf=/c2pa/urn:c2pa:8d0afe4e-30c2-461e-b8a8-bd2dcdb3efcf/c2pa.signature
+Claim Signature Alg             : sha256
+Claim Signature Hash            : (Binary data 32 bytes, use -b option to extract)
+Thumbnail URL                   : self#jumbf=c2pa.assertions/c2pa.thumbnail.ingredient
+Thumbnail Hash                  : (Binary data 32 bytes, use -b option to extract)
+Actions Parameters Ingredients Url: self#jumbf=c2pa.assertions/c2pa.ingredient.v3
+Actions Parameters Ingredients Hash: (Binary data 32 bytes, use -b option to extract)
+Image Size                      : 1024x1024
+Megapixels                      : 1.0

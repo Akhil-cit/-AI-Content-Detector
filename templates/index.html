@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Detector</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #00ff00;
+            font-family: monospace;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        input {
+            background: #111;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            margin: 10px;
+        }
+        button {
+            background: #00ff00;
+            color: #0a0a0a;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #00cc00;
+        }
+        #result {
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🕵️ AI Content Detector</h1>
+    <p>Upload an image or video to check if it's AI generated</p>
+
+    <input type="file" id="media" accept="image/*,video/*" />
+    <br>
+    <button onclick="analyze()">Analyze</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        async function analyze() {
+            let file = document.getElementById("media").files[0];
+            if (!file) {
+                alert("Please select a file first!");
+                return;
+            }
+
+            document.getElementById("result").innerText = "Analyzing...";
+
+            let form = new FormData();
+            form.append("image", file);
+
+            let res = await fetch("/analyze", {
+                method: "POST",
+                body: form
+            });
+
+            let data = await res.json();
+            document.getElementById("result").innerText = data.result;
+        }
+    </script>
+</body>
+</html>
