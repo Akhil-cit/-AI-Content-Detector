@@ -27,194 +27,194 @@ public:
             content=content+temp;
         }
 
-       if (content.contains("DALL-E")) { return "AI Generated"; }
-    else if (content.contains("DALL·E")) { return "AI Generated"; }
-    else if (content.contains("ChatGPT")) { return "AI Generated"; }
-    else if (content.contains("GPT-4o")) { return "AI Generated"; }
-    else if (content.contains("GPT-4")) { return "AI Generated"; }
-    else if (content.contains("GPT-3")) { return "AI Generated"; }
-    else if (content.contains("Midjourney")) { return "AI Generated"; }
-    else if (content.contains("Stable Diffusion")) { return "AI Generated"; }
-    else if (content.contains("Firefly")) { return "AI Generated"; }
-    else if (content.contains("Runway")) { return "AI Generated"; }
-    else if (content.contains("Sora")) { return "AI Generated"; }
-    else if (content.contains("Pika")) { return "AI Generated"; }
-    else if (content.contains("Gemini")) { return "AI Generated"; }
-    else if (content.contains("Imagen")) { return "AI Generated"; }
-    else if (content.contains("Leonardo")) { return "AI Generated"; }
-    else if (content.contains("Canva")) { return "AI Generated"; }
-    else if (content.contains("Adobe Generative")) { return "AI Generated"; }
-    else if (content.contains("Adobe Firefly")) { return "AI Generated"; }
-    else if (content.contains("trainedAlgorithmicMedia")) { return "AI Generated"; }
-    else if (content.contains("digitalArtWork")) { return "AI Generated"; }
-    else if (content.contains("Bing Image")) { return "AI Generated"; }
-    else if (content.contains("Ideogram")) { return "AI Generated"; }
-    else if (content.contains("Playground AI")) { return "AI Generated"; }
-    else if (content.contains("NightCafe")) { return "AI Generated"; }
-    else if (content.contains("Artbreeder")) { return "AI Generated"; }
-    else if (content.contains("Deep Dream")) { return "AI Generated"; }
-    else if (content.contains("Synthesia")) { return "AI Generated"; }
-    else if (content.contains("HeyGen")) { return "AI Generated"; }
-    else if (content.contains("Luma")) { return "AI Generated"; }
-    else if (content.contains("Kling")) { return "AI Generated"; }
-    else if (content.contains("ComfyUI")) { return "AI Generated"; }
-    else if (content.contains("InvokeAI")) { return "AI Generated"; }
-    else if (content.contains("Automatic1111")) { return "AI Generated"; }
-    else if (content.contains("ControlNet")) { return "AI Generated"; }
-    else if (content.contains("Dreamstudio")) { return "AI Generated"; }
-    else if (content.contains("DreamBooth")) { return "AI Generated"; }
-    else if (content.contains("Diffusers")) { return "AI Generated"; }
-    else if (content.contains("Hugging Face")) { return "AI Generated"; }
-    else if (content.contains("Civitai")) { return "AI Generated"; }
-    else if (content.contains("Lexica")) { return "AI Generated"; }
-    else if (content.contains("BlueWillow")) { return "AI Generated"; }
-    else if (content.contains("Stablecog")) { return "AI Generated"; }
-    else if (content.contains("Mage.space")) { return "AI Generated"; }
-    else if (content.contains("Dezgo")) { return "AI Generated"; }
-    else if (content.contains("Prodia")) { return "AI Generated"; }
-    else if (content.contains("Getimg")) { return "AI Generated"; }
-    else if (content.contains("Clipdrop")) { return "AI Generated"; }
-    else if (content.contains("Stability AI")) { return "AI Generated"; }
-    else if (content.contains("StabilityAI")) { return "AI Generated"; }
-    else if (content.contains("Replicate")) { return "AI Generated"; }
-    else if (content.contains("Fotor")) { return "AI Generated"; }
-    else if (content.contains("Craiyon")) { return "AI Generated"; }
-    else if (content.contains("WOMBO")) { return "AI Generated"; }
-    else if (content.contains("Dream by WOMBO")) { return "AI Generated"; }
-    else if (content.contains("Jasper Art")) { return "AI Generated"; }
-    else if (content.contains("Photosonic")) { return "AI Generated"; }
-    else if (content.contains("Writesonic")) { return "AI Generated"; }
-    else if (content.contains("Tome")) { return "AI Generated"; }
-    else if (content.contains("Kaiber")) { return "AI Generated"; }
-    else if (content.contains("Genmo")) { return "AI Generated"; }
-    else if (content.contains("Haiper")) { return "AI Generated"; }
-    else if (content.contains("Invideo AI")) { return "AI Generated"; }
-    else if (content.contains("Fliki")) { return "AI Generated"; }
-    else if (content.contains("Pictory")) { return "AI Generated"; }
-    else if (content.contains("Veed")) { return "AI Generated"; }
-    else if (content.contains("Descript")) { return "AI Generated"; }
-    else if (content.contains("ElevenLabs")) { return "AI Generated"; }
-    else if (content.contains("Murf")) { return "AI Generated"; }
-    else if (content.contains("Speechify")) { return "AI Generated"; }
-    else if (content.contains("Resemble AI")) { return "AI Generated"; }
-    else if (content.contains("Play.ht")) { return "AI Generated"; }
-    else if (content.contains("Voicify")) { return "AI Generated"; }
-    else if (content.contains("Udio")) { return "AI Generated"; }
-    else if (content.contains("Suno")) { return "AI Generated"; }
-    else if (content.contains("Boomy")) { return "AI Generated"; }
-    else if (content.contains("Soundraw")) { return "AI Generated"; }
-    else if (content.contains("Aiva")) { return "AI Generated"; }
-    else if (content.contains("Loudly")) { return "AI Generated"; }
-    else if (content.contains("Beatoven")) { return "AI Generated"; }
-    else if (content.contains("Mubert")) { return "AI Generated"; }
-    else if (content.contains("DeepMind")) { return "AI Generated"; }
-    else if (content.contains("Anthropic")) { return "AI Generated"; }
-    else if (content.contains("Claude")) { return "AI Generated"; }
-    else if (content.contains("Cohere")) { return "AI Generated"; }
-    else if (content.contains("Mistral")) { return "AI Generated"; }
-    else if (content.contains("Llama")) { return "AI Generated"; }
-    else if (content.contains("Meta AI")) { return "AI Generated"; }
-    else if (content.contains("Copilot")) { return "AI Generated"; }
-    else if (content.contains("Microsoft Designer")) { return "AI Generated"; }
-    else if (content.contains("Microsoft Copilot")) { return "AI Generated"; }
-    else if (content.contains("Grok")) { return "AI Generated"; }
-    else if (content.contains("xAI")) { return "AI Generated"; }
-    else if (content.contains("Perplexity")) { return "AI Generated"; }
-    else if (content.contains("You.com")) { return "AI Generated"; }
-    else if (content.contains("Poe")) { return "AI Generated"; }
-    else if (content.contains("Character AI")) { return "AI Generated"; }
-    else if (content.contains("Runway ML")) { return "AI Generated"; }
-    else if (content.contains("Wonder Studio")) { return "AI Generated"; }
-    else if (content.contains("D-ID")) { return "AI Generated"; }
-    else if (content.contains("DeepFaceLab")) { return "AI Generated"; }
-    else if (content.contains("FaceSwap")) { return "AI Generated"; }
-    else if (content.contains("Reface")) { return "AI Generated"; }
-    else if (content.contains("Wombo Dream")) { return "AI Generated"; }
-    else if (content.contains("Starry AI")) { return "AI Generated"; }
-    else if (content.contains("Foocus")) { return "AI Generated"; }
-    else if (content.contains("SeaArt")) { return "AI Generated"; }
-    else if (content.contains("TensorArt")) { return "AI Generated"; }
-    else if (content.contains("PicFinder")) { return "AI Generated"; }
-    else if (content.contains("Pixlr AI")) { return "AI Generated"; }
-    else if (content.contains("Remove.bg")) { return "AI Generated"; }
-    else if (content.contains("Photoroom")) { return "AI Generated"; }
-    else if (content.contains("Luminar AI")) { return "AI Generated"; }
-    else if (content.contains("Topaz")) { return "AI Generated"; }
-    else if (content.contains("Gigapixel")) { return "AI Generated"; }
-    else if (content.contains("Let's Enhance")) { return "AI Generated"; }
-    else if (content.contains("Upscayl")) { return "AI Generated"; }
-    else if (content.contains("Real-ESRGAN")) { return "AI Generated"; }
-    else if (content.contains("GFPGAN")) { return "AI Generated"; }
-    else if (content.contains("CodeFormer")) { return "AI Generated"; }
-    else if (content.contains("InsightFace")) { return "AI Generated"; }
-    else if (content.contains("SimSwap")) { return "AI Generated"; }
-    else if (content.contains("Roop")) { return "AI Generated"; }
-    else if (content.contains("generative")) { return "AI Generated"; }
-    else if (content.contains("Generative AI")) { return "AI Generated"; }
-    else if (content.contains("ai-generated")) { return "AI Generated"; }
-    else if (content.contains("AI Generated")) { return "AI Generated"; }
-    else if (content.contains("artificialIntelligence")) { return "AI Generated"; }
-    else if (content.contains("diffusion model")) { return "AI Generated"; }
-    else if (content.contains("neural network")) { return "AI Generated"; }
-    else if (content.contains("GAN")) { return "AI Generated"; }
-    else if (content.contains("VAE")) { return "AI Generated"; }
-    else if (content.contains("LoRA")) { return "AI Generated"; }
-    else if (content.contains("Dreambooth")) { return "AI Generated"; }
-    else if (content.contains("textual inversion")) { return "AI Generated"; }
-    else if (content.contains("latent diffusion")) { return "AI Generated"; }
-    else if (content.contains("OpenAI")) { return "AI Generated"; }
-    else if (content.contains("c2pa")) { return "AI Generated"; }
-    else if (content.contains("C2PA")) { return "AI Generated"; }
-    else if (content.contains("contentauth")) { return "AI Generated"; }
-    else if (content.contains("ContentAuth")) { return "AI Generated"; }
-    else if (content.contains("Meitu")) { return "AI Generated"; }
-    else if (content.contains("Remini")) { return "AI Generated"; }
-    else if (content.contains("FaceApp")) { return "AI Generated"; }
-    else if (content.contains("Lensa")) { return "AI Generated"; }
-    else if (content.contains("Dawn AI")) { return "AI Generated"; }
-    else if (content.contains("Prisma")) { return "AI Generated"; }
-    else if (content.contains("Facetune")) { return "AI Generated"; }
-    else if (content.contains("Runway Gen")) { return "AI Generated"; }
-    else if (content.contains("Gen-2")) { return "AI Generated"; }
-    else if (content.contains("Gen-3")) { return "AI Generated"; }
-    else if (content.contains("AnimateDiff")) { return "AI Generated"; }
-    else if (content.contains("ModelScope")) { return "AI Generated"; }
-    else if (content.contains("ZeroScope")) { return "AI Generated"; }
-    else if (content.contains("Wan")) { return "AI Generated"; }
-    else if (content.contains("CogVideo")) { return "AI Generated"; }
-    else if (content.contains("Vidu")) { return "AI Generated"; }
-    else if (content.contains("Pixverse")) { return "AI Generated"; }
-    else if (content.contains("MiniMax")) { return "AI Generated"; }
-    else if (content.contains("Hailuo")) { return "AI Generated"; }
-    else if (content.contains("Jimeng")) { return "AI Generated"; }
-    else if (content.contains("Janus")) { return "AI Generated"; }
-    else if (content.contains("Flux")) { return "AI Generated"; }
-    else if (content.contains("FLUX")) { return "AI Generated"; }
-    else if (content.contains("Black Forest Labs")) { return "AI Generated"; }
-    else if (content.contains("Fal.ai")) { return "AI Generated"; }
-    else if (content.contains("Together AI")) { return "AI Generated"; }
-    else if (content.contains("Segmind")) { return "AI Generated"; }
-    else if (content.contains("Scenario")) { return "AI Generated"; }
-    else if (content.contains("Krea")) { return "AI Generated"; }
-    else if (content.contains("Magnific")) { return "AI Generated"; }
-    else if (content.contains("Higgsfield")) { return "AI Generated"; }
-    else if (content.contains("Lightricks")) { return "AI Generated"; }
-    else if (content.contains("LTX")) { return "AI Generated"; }
-    else if (content.contains("Nijijourney")) { return "AI Generated"; }
-    else if (content.contains("Niji")) { return "AI Generated"; }
-    else if (content.contains("NovelAI")) { return "AI Generated"; }
-    else if (content.contains("Waifu Diffusion")) { return "AI Generated"; }
-    else if (content.contains("Anything V")) { return "AI Generated"; }
-    else if (content.contains("ChilloutMix")) { return "AI Generated"; }
-    else if (content.contains("Deliberate")) { return "AI Generated"; }
-    else if (content.contains("RealisticVision")) { return "AI Generated"; }
-    else if (content.contains("AbsoluteReality")) { return "AI Generated"; }
-    else if (content.contains("Dreamshaper")) { return "AI Generated"; }
-    else if (content.contains("Counterfeit")) { return "AI Generated"; }
-    else if (content.contains("Photon")) { return "AI Generated"; }
-    else if (content.contains("Juggernaut")) { return "AI Generated"; }
-    else if (content.contains("epiCRealism")) { return "AI Generated"; }
-    else { return "Likely Real"; }
+       if (content.find("DALL-E") != string::npos) return "AI Generated";
+else if (content.find("DALL·E") != string::npos) return "AI Generated";
+else if (content.find("ChatGPT") != string::npos) return "AI Generated";
+else if (content.find("GPT-4o") != string::npos) return "AI Generated";
+else if (content.find("GPT-4") != string::npos) return "AI Generated";
+else if (content.find("GPT-3") != string::npos) return "AI Generated";
+else if (content.find("Midjourney") != string::npos) return "AI Generated";
+else if (content.find("Stable Diffusion") != string::npos) return "AI Generated";
+else if (content.find("Firefly") != string::npos) return "AI Generated";
+else if (content.find("Runway") != string::npos) return "AI Generated";
+else if (content.find("Sora") != string::npos) return "AI Generated";
+else if (content.find("Pika") != string::npos) return "AI Generated";
+else if (content.find("Gemini") != string::npos) return "AI Generated";
+else if (content.find("Imagen") != string::npos) return "AI Generated";
+else if (content.find("Leonardo") != string::npos) return "AI Generated";
+else if (content.find("Canva") != string::npos) return "AI Generated";
+else if (content.find("Adobe Generative") != string::npos) return "AI Generated";
+else if (content.find("Adobe Firefly") != string::npos) return "AI Generated";
+else if (content.find("trainedAlgorithmicMedia") != string::npos) return "AI Generated";
+else if (content.find("digitalArtWork") != string::npos) return "AI Generated";
+else if (content.find("Bing Image") != string::npos) return "AI Generated";
+else if (content.find("Ideogram") != string::npos) return "AI Generated";
+else if (content.find("Playground AI") != string::npos) return "AI Generated";
+else if (content.find("NightCafe") != string::npos) return "AI Generated";
+else if (content.find("Artbreeder") != string::npos) return "AI Generated";
+else if (content.find("Deep Dream") != string::npos) return "AI Generated";
+else if (content.find("Synthesia") != string::npos) return "AI Generated";
+else if (content.find("HeyGen") != string::npos) return "AI Generated";
+else if (content.find("Luma") != string::npos) return "AI Generated";
+else if (content.find("Kling") != string::npos) return "AI Generated";
+else if (content.find("ComfyUI") != string::npos) return "AI Generated";
+else if (content.find("InvokeAI") != string::npos) return "AI Generated";
+else if (content.find("Automatic1111") != string::npos) return "AI Generated";
+else if (content.find("ControlNet") != string::npos) return "AI Generated";
+else if (content.find("Dreamstudio") != string::npos) return "AI Generated";
+else if (content.find("DreamBooth") != string::npos) return "AI Generated";
+else if (content.find("Diffusers") != string::npos) return "AI Generated";
+else if (content.find("Hugging Face") != string::npos) return "AI Generated";
+else if (content.find("Civitai") != string::npos) return "AI Generated";
+else if (content.find("Lexica") != string::npos) return "AI Generated";
+else if (content.find("BlueWillow") != string::npos) return "AI Generated";
+else if (content.find("Stablecog") != string::npos) return "AI Generated";
+else if (content.find("Mage.space") != string::npos) return "AI Generated";
+else if (content.find("Dezgo") != string::npos) return "AI Generated";
+else if (content.find("Prodia") != string::npos) return "AI Generated";
+else if (content.find("Getimg") != string::npos) return "AI Generated";
+else if (content.find("Clipdrop") != string::npos) return "AI Generated";
+else if (content.find("Stability AI") != string::npos) return "AI Generated";
+else if (content.find("StabilityAI") != string::npos) return "AI Generated";
+else if (content.find("Replicate") != string::npos) return "AI Generated";
+else if (content.find("Fotor") != string::npos) return "AI Generated";
+else if (content.find("Craiyon") != string::npos) return "AI Generated";
+else if (content.find("WOMBO") != string::npos) return "AI Generated";
+else if (content.find("Dream by WOMBO") != string::npos) return "AI Generated";
+else if (content.find("Jasper Art") != string::npos) return "AI Generated";
+else if (content.find("Photosonic") != string::npos) return "AI Generated";
+else if (content.find("Writesonic") != string::npos) return "AI Generated";
+else if (content.find("Tome") != string::npos) return "AI Generated";
+else if (content.find("Kaiber") != string::npos) return "AI Generated";
+else if (content.find("Genmo") != string::npos) return "AI Generated";
+else if (content.find("Haiper") != string::npos) return "AI Generated";
+else if (content.find("Invideo AI") != string::npos) return "AI Generated";
+else if (content.find("Fliki") != string::npos) return "AI Generated";
+else if (content.find("Pictory") != string::npos) return "AI Generated";
+else if (content.find("Veed") != string::npos) return "AI Generated";
+else if (content.find("Descript") != string::npos) return "AI Generated";
+else if (content.find("ElevenLabs") != string::npos) return "AI Generated";
+else if (content.find("Murf") != string::npos) return "AI Generated";
+else if (content.find("Speechify") != string::npos) return "AI Generated";
+else if (content.find("Resemble AI") != string::npos) return "AI Generated";
+else if (content.find("Play.ht") != string::npos) return "AI Generated";
+else if (content.find("Voicify") != string::npos) return "AI Generated";
+else if (content.find("Udio") != string::npos) return "AI Generated";
+else if (content.find("Suno") != string::npos) return "AI Generated";
+else if (content.find("Boomy") != string::npos) return "AI Generated";
+else if (content.find("Soundraw") != string::npos) return "AI Generated";
+else if (content.find("Aiva") != string::npos) return "AI Generated";
+else if (content.find("Loudly") != string::npos) return "AI Generated";
+else if (content.find("Beatoven") != string::npos) return "AI Generated";
+else if (content.find("Mubert") != string::npos) return "AI Generated";
+else if (content.find("DeepMind") != string::npos) return "AI Generated";
+else if (content.find("Anthropic") != string::npos) return "AI Generated";
+else if (content.find("Claude") != string::npos) return "AI Generated";
+else if (content.find("Cohere") != string::npos) return "AI Generated";
+else if (content.find("Mistral") != string::npos) return "AI Generated";
+else if (content.find("Llama") != string::npos) return "AI Generated";
+else if (content.find("Meta AI") != string::npos) return "AI Generated";
+else if (content.find("Copilot") != string::npos) return "AI Generated";
+else if (content.find("Microsoft Designer") != string::npos) return "AI Generated";
+else if (content.find("Microsoft Copilot") != string::npos) return "AI Generated";
+else if (content.find("Grok") != string::npos) return "AI Generated";
+else if (content.find("xAI") != string::npos) return "AI Generated";
+else if (content.find("Perplexity") != string::npos) return "AI Generated";
+else if (content.find("You.com") != string::npos) return "AI Generated";
+else if (content.find("Poe") != string::npos) return "AI Generated";
+else if (content.find("Character AI") != string::npos) return "AI Generated";
+else if (content.find("Runway ML") != string::npos) return "AI Generated";
+else if (content.find("Wonder Studio") != string::npos) return "AI Generated";
+else if (content.find("D-ID") != string::npos) return "AI Generated";
+else if (content.find("DeepFaceLab") != string::npos) return "AI Generated";
+else if (content.find("FaceSwap") != string::npos) return "AI Generated";
+else if (content.find("Reface") != string::npos) return "AI Generated";
+else if (content.find("Wombo Dream") != string::npos) return "AI Generated";
+else if (content.find("Starry AI") != string::npos) return "AI Generated";
+else if (content.find("Foocus") != string::npos) return "AI Generated";
+else if (content.find("SeaArt") != string::npos) return "AI Generated";
+else if (content.find("TensorArt") != string::npos) return "AI Generated";
+else if (content.find("PicFinder") != string::npos) return "AI Generated";
+else if (content.find("Pixlr AI") != string::npos) return "AI Generated";
+else if (content.find("Remove.bg") != string::npos) return "AI Generated";
+else if (content.find("Photoroom") != string::npos) return "AI Generated";
+else if (content.find("Luminar AI") != string::npos) return "AI Generated";
+else if (content.find("Topaz") != string::npos) return "AI Generated";
+else if (content.find("Gigapixel") != string::npos) return "AI Generated";
+else if (content.find("Let's Enhance") != string::npos) return "AI Generated";
+else if (content.find("Upscayl") != string::npos) return "AI Generated";
+else if (content.find("Real-ESRGAN") != string::npos) return "AI Generated";
+else if (content.find("GFPGAN") != string::npos) return "AI Generated";
+else if (content.find("CodeFormer") != string::npos) return "AI Generated";
+else if (content.find("InsightFace") != string::npos) return "AI Generated";
+else if (content.find("SimSwap") != string::npos) return "AI Generated";
+else if (content.find("Roop") != string::npos) return "AI Generated";
+else if (content.find("generative") != string::npos) return "AI Generated";
+else if (content.find("Generative AI") != string::npos) return "AI Generated";
+else if (content.find("ai-generated") != string::npos) return "AI Generated";
+else if (content.find("AI Generated") != string::npos) return "AI Generated";
+else if (content.find("artificialIntelligence") != string::npos) return "AI Generated";
+else if (content.find("diffusion model") != string::npos) return "AI Generated";
+else if (content.find("neural network") != string::npos) return "AI Generated";
+else if (content.find("GAN") != string::npos) return "AI Generated";
+else if (content.find("VAE") != string::npos) return "AI Generated";
+else if (content.find("LoRA") != string::npos) return "AI Generated";
+else if (content.find("Dreambooth") != string::npos) return "AI Generated";
+else if (content.find("textual inversion") != string::npos) return "AI Generated";
+else if (content.find("latent diffusion") != string::npos) return "AI Generated";
+else if (content.find("OpenAI") != string::npos) return "AI Generated";
+else if (content.find("c2pa") != string::npos) return "AI Generated";
+else if (content.find("C2PA") != string::npos) return "AI Generated";
+else if (content.find("contentauth") != string::npos) return "AI Generated";
+else if (content.find("ContentAuth") != string::npos) return "AI Generated";
+else if (content.find("Meitu") != string::npos) return "AI Generated";
+else if (content.find("Remini") != string::npos) return "AI Generated";
+else if (content.find("FaceApp") != string::npos) return "AI Generated";
+else if (content.find("Lensa") != string::npos) return "AI Generated";
+else if (content.find("Dawn AI") != string::npos) return "AI Generated";
+else if (content.find("Prisma") != string::npos) return "AI Generated";
+else if (content.find("Facetune") != string::npos) return "AI Generated";
+else if (content.find("Runway Gen") != string::npos) return "AI Generated";
+else if (content.find("Gen-2") != string::npos) return "AI Generated";
+else if (content.find("Gen-3") != string::npos) return "AI Generated";
+else if (content.find("AnimateDiff") != string::npos) return "AI Generated";
+else if (content.find("ModelScope") != string::npos) return "AI Generated";
+else if (content.find("ZeroScope") != string::npos) return "AI Generated";
+else if (content.find("Wan") != string::npos) return "AI Generated";
+else if (content.find("CogVideo") != string::npos) return "AI Generated";
+else if (content.find("Vidu") != string::npos) return "AI Generated";
+else if (content.find("Pixverse") != string::npos) return "AI Generated";
+else if (content.find("MiniMax") != string::npos) return "AI Generated";
+else if (content.find("Hailuo") != string::npos) return "AI Generated";
+else if (content.find("Jimeng") != string::npos) return "AI Generated";
+else if (content.find("Janus") != string::npos) return "AI Generated";
+else if (content.find("Flux") != string::npos) return "AI Generated";
+else if (content.find("FLUX") != string::npos) return "AI Generated";
+else if (content.find("Black Forest Labs") != string::npos) return "AI Generated";
+else if (content.find("Fal.ai") != string::npos) return "AI Generated";
+else if (content.find("Together AI") != string::npos) return "AI Generated";
+else if (content.find("Segmind") != string::npos) return "AI Generated";
+else if (content.find("Scenario") != string::npos) return "AI Generated";
+else if (content.find("Krea") != string::npos) return "AI Generated";
+else if (content.find("Magnific") != string::npos) return "AI Generated";
+else if (content.find("Higgsfield") != string::npos) return "AI Generated";
+else if (content.find("Lightricks") != string::npos) return "AI Generated";
+else if (content.find("LTX") != string::npos) return "AI Generated";
+else if (content.find("Nijijourney") != string::npos) return "AI Generated";
+else if (content.find("Niji") != string::npos) return "AI Generated";
+else if (content.find("NovelAI") != string::npos) return "AI Generated";
+else if (content.find("Waifu Diffusion") != string::npos) return "AI Generated";
+else if (content.find("Anything V") != string::npos) return "AI Generated";
+else if (content.find("ChilloutMix") != string::npos) return "AI Generated";
+else if (content.find("Deliberate") != string::npos) return "AI Generated";
+else if (content.find("RealisticVision") != string::npos) return "AI Generated";
+else if (content.find("AbsoluteReality") != string::npos) return "AI Generated";
+else if (content.find("Dreamshaper") != string::npos) return "AI Generated";
+else if (content.find("Counterfeit") != string::npos) return "AI Generated";
+else if (content.find("Photon") != string::npos) return "AI Generated";
+else if (content.find("Juggernaut") != string::npos) return "AI Generated";
+else if (content.find("epiCRealism") != string::npos) return "AI Generated";
+else return "Likely Real";
     }
 };
 
