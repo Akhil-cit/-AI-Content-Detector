@@ -63,10 +63,10 @@
             let form = new FormData();
             form.append("image", file);
 
-            let res = await fetch("/analyze", {
-                method: "POST",
-                body: form
-            });
+            let res = await fetch("https://ai-content-detector-1uiw.onrender.com/analyze", {
+    method: "POST",
+    body: form
+});
 
             let data = await res.json();
             document.getElementById("result").innerText = data.result;
